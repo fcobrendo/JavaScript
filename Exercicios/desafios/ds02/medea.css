@@ -1,0 +1,28 @@
+@media screen and (max-width:500px){
+    body{
+        background-color:white; 
+        height: 80vh;
+        width: 70vw;
+        padding: 10px;
+        border-radius: 10px;
+       
+       }
+    #container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 58vh;
+        margin: 5px;
+        border-radius: 10px;
+        background-color: lightgrey;
+        overflow: hidden;
+        overflow-y: visible;
+    }
+    html{
+        
+        background-image: url('imagens/fundo.png');
+        background-size: cover;
+        background-position: center center;
+        
+    }
+}
